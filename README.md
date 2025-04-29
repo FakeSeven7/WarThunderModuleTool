@@ -21,9 +21,16 @@ If you are an Chinese user, please download WTT-ZH，the installation method is 
 
 ## Notes:
 
-1、Before use, please ensure your model is sourced from gamemodels3d.com and that the model file (obj) and texture folder are in the same directory.
+1、Before use, please ensure your model is sourced from gamemodels3d.com and that the model file (.obj) and mtl file (.mtl) are in the same directory.
 
 2、After clearing the scene, select the newly created workgroup, then import the model obj with the "Split By Group" option checked. Subsequent operations will only affect objects within this group. If you have objects you wish to keep, you can move them out of the workgroup.
+
+3、Please note that all operations should be performed in the "Layout" viewport (not the UV viewport or others), as performing them elsewhere may cause errors in the plugin.
+
+4、Before executing "Clean Unwanted Mesh Objects," you need to manually select a clearly identifiable part of the aircraft's main body in Object Mode (the default mode). The plugin will provide relevant prompts.
+
+
+
 
 
 
